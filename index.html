@@ -12,7 +12,7 @@
 
     <div id="app">
 
-        <ul>
+        <ul v-if="email === emails.length">
             <li v-for="email in emails">
                 {{email}}
             </li>
